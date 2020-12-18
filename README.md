@@ -1,2 +1,0 @@
-# tinyclayman.github.io
-Курсовая
