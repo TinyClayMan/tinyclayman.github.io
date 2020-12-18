@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Обратная связь</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">	
+		<link rel="icon" href="./images/misc/favicon.png">	
+	</head>
+
+	<body>
+		<header>
+			<ul id="nav">
+				<li><a href="main.html">Главная</a></li>
+				<li><a href="asteroids.html">Астероиды</a></li>
+				<li><a href="telescopes.html">Телескопы</a></li>
+				<li style="float:right"><a class="active" href="about.html">Обратная связь</a></li>
+			</ul>
+		</header>
+		<div id="main-section">
+			<div id="telescope-area">
+				<div class="wrapper">
+                         <form action="">
+                                <div class="form-top">
+                                <div class="data1">
+									<div class="dataLine">
+										<label for="name">Ваша почта</label><input type="text" required><label class="required"></label>
+                                    </div>
+                                    <div class="data3_2">
+										<label for="age">Ваш возраст</label><input type="number" min="0" oninput="validity.valid||(value='');" required><label class="required"></label>
+                                    </div>
+                                    <div class="dataLine">
+										<label for="comment">Ваше сообщение</label><textarea id="comment" required></textarea><label class="required"></label>
+                                    </div>
+                                    <div class="dataLine">
+										<label for "checkbox">Подписаться на спам</label><input type="checkbox" value="4">
+                                    </div>
+									<div class="signInButton"><button>Отправить</button></div>
+								</div>
+							</div>
+						</form>
+				</div>
+			</div>
+		</div>
+		<footer>
+			2020 Made by Gregory Kolosov
+		</footer>
+	</body>
+</html>

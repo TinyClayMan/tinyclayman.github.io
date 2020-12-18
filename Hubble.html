@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Космический сайт</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" href="./images/misc/favicon.png">
+	</head>
+
+	<body>
+		<header>
+			<ul id="nav">
+				<li class="nav-item"><a href="main.html">Главная</a></li>
+				<li class="nav-item"><a href="asteroids.html">Астероиды</a></li>
+				<li class="nav-item"><a href="telescopes.html">Телескопы</a></li>
+				<li class="nav-item" style="float:right"><a class="active" href="about.html">Обратная связь</a></li>
+			</ul>
+		</header>
+		<div id="main-section">
+			<div id="text-area">
+				<h1>Космический телескоп "Хаббл"</h1>
+				<p>Космический телескоп "Хаббл" (КТХ; англ. Hubble Space Telescope, HST; код обсерватории "250") — автоматическая обсерватория на орбите вокруг Земли, названная в честь Эдвина Хаббла. Телескоп "Хаббл" — совместный проект НАСА и Европейского космического агентства и входит в число Больших обсерваторий НАСА.</p>
+				<p>Размещение телескопа в космосе даёт возможность регистрировать электромагнитное излучение в диапазонах, в которых земная атмосфера непрозрачна; в первую очередь — в инфракрасном диапазоне. Благодаря отсутствию влияния атмосферы разрешающая способность телескопа в 7—10 раз больше, чем у аналогичного телескопа, расположенного на Земле. </p>
+				<h4>Фото, сделанные телескопом "Хаббл"</h4>
+				<div class="gallery">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/CosmicReef.png">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/NGC-6302TheButterflyNebula.png">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/SpiralGalaxyNGC-3147.png">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/CrabNebula.png">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/CrabNebulaInfrared.png">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/CrabNebulaOptical.png">
+					<img onclick="big()" src="./Images/asteroids/HubbleImages/CrabNebulaXRay.png">
+				</div>
+			</div>
+		</div>
+		<div id="popupScene" onclick="small()" class = "popup" style = "visibility: hidden;"></div>
+		<footer>
+			2020 Made by Gregory Kolosov
+		</footer>
+	</body>
+</html>
